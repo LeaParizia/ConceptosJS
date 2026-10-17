@@ -11,6 +11,8 @@ console.log(frase.charAt(0)); //devuelve el caracter de la posicion 0
 console.log(frase.toUpperCase()); //devuelve la frase en mayusculas
 console.log(frase.toLowerCase()); //devuelve la frase en minusculas 
 
+
+// usar un solo igual asigna la variable
 // a == b verifica los valores de la variable
 // a === b verifica los valores y el tipo de dato de la variable sean iguales
 // a !== b verifica que los valores de la variable sean diferentes estrictamente distintos
