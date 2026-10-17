@@ -34,7 +34,7 @@ do {
 //  todas las lineas que quiero que ejecute el bucle
 //}
 
-for(let bateria = 100;bateria > 100; bateria--)
+for(let bateria = 100;bateria > 100; bateria--) //bateria = bateria - 5,  disminuye de 5 en 5 
 {
   console.log('bateria restante:' + bateria)
 }
