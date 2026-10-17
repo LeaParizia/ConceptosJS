@@ -46,12 +46,16 @@ if(frase.charAt(4) === 'a' || frase.charAt(4) === 'e'
 
 const frase = prompt('ingrese una frase'.toLocaleLowerCase())
 
-for(let caracter = 0; caracter < frase.length;caracter++){
-  if{(frase.charAt(caracter) === 'a' || frase.charAt(caracter) === 'e' 
-|| frase.charAt(caracter) === 'i' || frase.charAt(caracter) === 'o' 
-|| frase.charAt(caracter) === 'u') {
-  console.log(frase.charAt(caracter));}
-
+for (let caracter = 0; caracter < frase.length; caracter++) {
+  if (
+    frase.charAt(caracter) === "a" ||
+    frase.charAt(caracter) === "e" ||
+    frase.charAt(caracter) === "i" ||
+    frase.charAt(caracter) === "o" ||
+    frase.charAt(caracter) === "u"
+  ) {
+    console.log(frase.charAt(caracter));
+  }
 }
   
   
