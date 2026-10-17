@@ -1,7 +1,23 @@
 //pidiendo los datos al usuario
 //para convertir el dato ingresado a número entero se utiliza parseInt
 //para convertir el dato ingresado a número decimal se utiliza parseFloat
-const numero3 = parseInt(prompt('Ingrese el primer número: ')); 
-const numero4 = parseInt(prompt('Ingrese el segundo número: '));
-const resultado = numero3 + numero4;
-console.log('el resultado de la suma es: ' + resultado);
+const numero1 = parseInt(prompt('Ingrese el primer número: ')); 
+const numero2 = parseInt(prompt('Ingrese el segundo número: '));
+//isNan(variable) = true si pongo un texto, false si pongo un número
+//una pregunta SI = if
+//(condicion logica) 
+// {las lineas que quiero hacer SI se cumplen la condicion logica}
+//else
+// {las lineas que quiero hacer si NO se cumplen la condicion logica} 
+//true = false
+//!false = true
+// el contenido de las varibles numero1 Y numero2 son numeros? Y operador logico
+//operador logico NOT !, AND &&
+
+if(!isNaN(numero1) && !isNaN(numero2)){
+  const resultado = numero1 + numero2;
+  console.log('el resultado de la suma es: ' + resultado);
+}
+else{
+  console.log('No ingresaste un número valido');
+}
