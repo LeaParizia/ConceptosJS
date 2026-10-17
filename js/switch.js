@@ -37,6 +37,7 @@ let saldo = 5000; // saldo inicial
 
 switch(opcion) {
   case '1':
+  case 'saldo': // se puede usar de esta manera tambien
     alert ('Su saldo es de $' + saldo);
     break;
   case '2':
