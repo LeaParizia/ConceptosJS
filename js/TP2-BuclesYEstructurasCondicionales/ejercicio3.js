@@ -17,6 +17,8 @@ No abuses de este método.
 Impide que el usuario acceda a otras partes de la página hasta que se cierre la ventana.*/
 
 
+// do while usando un if adentro para evitar que el texto concatenado empiece con - en caso de empezar vacio.
+
 let resultado = "";
 
 do{
