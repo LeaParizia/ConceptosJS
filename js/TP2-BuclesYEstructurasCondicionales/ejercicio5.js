@@ -45,4 +45,5 @@ else{
   alert("el numero ingresado esta fuera de rango")
 }
   
-} while (confirm("desea agregar otro numero?"));
+} while (confirm("desea agregar otro numero?")); // condicion de salida del bucle, si el usuario pulsa cancelar 
+                                                //se sale del bucle y termina el programa
