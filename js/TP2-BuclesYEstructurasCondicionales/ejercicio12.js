@@ -13,7 +13,7 @@ alert("por favor, presione aceptar para ver un numero aleatorio entre 1 y 99!")
 
 //let numeroRandom = (Math.random() * 99) + 1 // asi genera un numero aleatorio tambien pero sin redondear, mostrando decimales
 
-let numeroRandom = Math.floor(Math.random() * 99) + 1
+//let numeroRandom = Math.floor(Math.random() * 99) + 1
 
 alert(numeroRandom)
 
